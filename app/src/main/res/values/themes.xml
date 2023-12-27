@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MeText" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="pardefault">
+        <item name="android:textColor">@color/Gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/quicksandregular</item>
+    </style>
+
+    <style name="titredelabarre">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/quicksandbold</item>
+    </style>
+
+    <style name="titredelapage" parent="titredelabarre">
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="titresdansHome" parent="titredelapage">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MeText" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+</resources>
