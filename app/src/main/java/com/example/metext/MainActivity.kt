@@ -1,6 +1,5 @@
 package com.example.metext
 
-import android.content.Intent
 import android.os.Bundle
 import android.window.SplashScreen
 import androidx.activity.ComponentActivity
