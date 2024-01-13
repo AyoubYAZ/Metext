@@ -24,8 +24,8 @@ fun Splashscreen(navController: NavController) {
     }
     Column (modifier= Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally){
         Image(painter = painterResource(id = R.drawable.trend), "",modifier= Modifier
-            .width(200.dp)
-            .height(200.dp))
+            .width(500.dp)
+            .height(500.dp))
 
     }
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="AndroidLintUnusedMaterial3ScaffoldPaddingParameter">
+        <ignore path="C:/Users/ayoub/Desktop/Projects/MeText/app/src/main/java/com/example/metext/MainActivity.kt" />
+    </issue>
+</lint>

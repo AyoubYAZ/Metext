@@ -16,8 +16,14 @@ fun Navigation() {
             Mainscreen(navController = navController)
         }
         composable("summarize") {
-            Func()
+            SummarizeText()
 
+        }
+        composable("analyse"){
+            Analyse()
+        }
+        composable("extract"){
+            ExtractTextFromFileScreen()
         }
 
 
